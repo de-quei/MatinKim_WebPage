@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    margin-left: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.top_header{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_header a {
+    text-decoration: none;
+    color: red;
+}
+
+.top_header a:hover {
+    text-decoration: underline white; 
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header div{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_header{
+    margin-left: 3%;
+    display: flex;
+
+
+}
+p{
+    margin-left: 15px;
+}
+.bi-list{
+    margin-left: 10%;
+}
+
+.right_header{
+    /* margin-right: 3%; */
+
+}
+.bi-apple,.bi-globe2,.bi-person,.bi-bag{
+}
