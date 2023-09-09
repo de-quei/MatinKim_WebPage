@@ -69,3 +69,17 @@ p{
 .bi {
     font-size: 1.3rem; /* 아이콘 크기를 조절할 값 (예: 2rem) */
 }
+
+.section1{
+    width: 100%;
+    padding: 80px;
+}
+
+.section1 ul {
+    list-style: none;
+    display: flex;
+}
+
+.section ul li{
+    text-align: center;
+}
