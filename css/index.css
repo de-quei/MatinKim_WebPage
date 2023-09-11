@@ -121,6 +121,7 @@ p{
     padding: 80px;
     position: relative;
     box-sizing: border-box;
+    background-color: #f5f5f5;
 }
 
 .section1 ul {
