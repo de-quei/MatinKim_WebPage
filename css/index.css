@@ -199,3 +199,24 @@ p{
 }
 
 /*footer*/
+.top-footer{
+    border: 1px solid #e5e5e5;
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+}
+.footer-menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.footer-menu .choose-store{
+    display: flex;
+}
