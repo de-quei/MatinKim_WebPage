@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../js/index.js">
+    <link rel="script" href="../js/index.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
@@ -53,24 +53,39 @@
             </div>
         </header>
 
+        <div class="slide">
+            <div class="slide-container">
+                <button id="prevBtn" class="prevBtn">이전</button>
+                <div class="slide-list">
+                    <div class="inner">
+                        <img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/9662806d4a557bc6ccb0e6820f27f132.jpg">
+                    </div>
+                    <div class="inner">
+                        <img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/14f0a48513fac118119933e176f99051.jpg">
+                    </div>
+                </div>
+                <button id="nextBtn" class="nextBtn">다음</button>
+            </div>
+        </div>
+
         <div class="section1">
             <ul>
                 <li>
                     <a href="/product/list.html?cate_no=45" target="_self">
-                        <div class="img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/6e77b2a787f806b33ee5f4f31d914425.jpg"></div>
-                        <div class="desc"><h2>New In Shop</h2><p>Pre-Fall 2023</p></div>
+                        <div class="section1-img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/6e77b2a787f806b33ee5f4f31d914425.jpg"></div>
+                        <div class="section1-desc"><h2>New In Shop</h2><p>Pre-Fall 2023</p></div>
                     </a>
                 </li>
                 <li>
                     <a href="/product/list.html?cate_no=92" target="_self">
-                        <div class="img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/9b83a8df3bc48156b464aaee44e898ed.jpg"></div>
-                        <div class="desc"><h2>Underwear</h2></div>
+                        <div class="section1-img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/9b83a8df3bc48156b464aaee44e898ed.jpg"></div>
+                        <div class="section1-desc"><h2>Underwear</h2></div>
                     </a>
                 </li>
                 <li>
                     <a href="/product/list.html?cate_no=86" target="_self">
-                        <div class="img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/5b8061cf56b0bb7e28de9caaa7db981f.jpg"></div>
-                        <div class="desc"><h2>Must Have</h2><p>Best Item</p></div>
+                        <div class="section1-img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/5b8061cf56b0bb7e28de9caaa7db981f.jpg"></div>
+                        <div class="section1-desc"><h2>Must Have</h2><p>Best Item</p></div>
                     </a>
                 </li>
             </ul>
@@ -80,14 +95,14 @@
             <ul>
                 <li>
                     <a href="/about/stockist.html" target="_self" title="Stockist">
-                        <div class="img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/e235341434e9b90c22676cc7be0d350c.jpg"></div>
-                        <div class="desc"><h2>Stockist</h2><p>On / Offline Store</p></div>
+                        <div class="section2-img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/e235341434e9b90c22676cc7be0d350c.jpg"></div>
+                        <div class="section2-desc"><h2>Stockist</h2><p>On / Offline Store</p></div>
                     </a>
                 </li>
                 <li>
                     <a href="/collection-view.html?product_no=4415&amp;cate_no=68&amp;display_group=1" target="_self" title="Collection">
-                        <div class="img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/f2e928836b050688b2b4b1034c1c4584.jpg"></div>
-                        <div class="desc"><h2>2023 PRE-FALL COLLECTION</h2><p>‘NOSTALGIC CITIZEN’</p></div>
+                        <div class="section2-img"><img src="https://matinkim.com/web/upload/appfiles/0zdpAngaKBFnlCcCqpCU4A/f2e928836b050688b2b4b1034c1c4584.jpg"></div>
+                        <div class="section2-desc"><h2>2023 PRE-FALL COLLECTION</h2><p>‘NOSTALGIC CITIZEN’</p></div>
                     </a>
                 </li>
             </ul>
@@ -103,12 +118,3 @@
     </main>
 </body>
 </html>
-
-<script>
-    const toggleSidebarButton = document.getElementById("toggleSidebar");
-    const sidebar = document.querySelector(".sidebar");
-
-    toggleSidebarButton.addEventListener("click", function () {
-        sidebar.classList.toggle("show");
-    });
-</script>

@@ -70,6 +70,52 @@ p{
     font-size: 1.3rem; /* 아이콘 크기를 조절할 값 (예: 2rem) */
 }
 
+/* 슬라이드 컨테이너 스타일 */
+.slide-container {
+    position: relative;
+}
+
+/* 이전과 다음 버튼 스타일 */
+.prevBtn,
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.prevBtn {
+    left: 0;
+}
+
+.nextBtn {
+    right: 0;
+}
+
+/* 이미지 슬라이드 스타일 */
+.slide-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.inner {
+    display: none;
+}
+
+.slide .slide-container .slide-list .inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 첫 번째 이미지 표시 */
+.inner:first-child {
+    display: block;
+}
+
 .section1 {
     width: 100%;
     position: relative;
@@ -86,7 +132,7 @@ p{
     margin-right: 10px; /* 이미지 사이에 간격을 주기 위해 조절 */
 }
 
-.section1 ul li .desc{
+.section1 ul li .section1-desc{
     color: white;
     top: 50%;
     left: 50%;
@@ -104,14 +150,14 @@ p{
     height: auto;
 }
 
-.section1 li .img img:hover {
+.section1 li .section1-img img:hover {
     opacity: 0.8; /* 이미지 투명도를 줄여 어두워지게 함 */
     transform: scale(1.01); /* 이미지 크기를 확대 */
     transition: transform 0.3s ease; /* 부드러운 변화를 위한 트랜지션 설정 */
 }
 
 /* 마우스가 이미지에서 벗어났을 때 원래 상태로 복원 */
-.section1 li .img img {
+.section1 li .section1-img img {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -140,13 +186,13 @@ p{
     height: auto;
 }
 
-.section2 li .img img:hover {
+.section2 li .section2-img img:hover {
     opacity: 0.8; /* 이미지 투명도를 줄여 어두워지게 함 */
     transform: scale(1.01); /* 이미지 크기를 확대 */
     transition: transform 0.3s ease; /* 부드러운 변화를 위한 트랜지션 설정 */
 }
 
 /* 마우스가 이미지에서 벗어났을 때 원래 상태로 복원 */
-.section2 li .img img {
+.section2 li .section2-img img {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
