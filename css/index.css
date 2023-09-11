@@ -239,6 +239,9 @@ footer{
     font-size: 13px;
     line-height: 1.66667;
 }
+.default-info{
+    text-align: right;
+}
 
 .middle-footer ul{
     list-style: none;
