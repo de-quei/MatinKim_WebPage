@@ -94,3 +94,28 @@ p{
     max-width: 100%;
     height: auto;
 }
+
+.section2 {
+    width: 100%;
+}
+
+.section2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.section2 li{
+    margin-left: 10px;
+}
+
+.section2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section2 img {
+    max-width: 100%;
+    height: auto;
+}
