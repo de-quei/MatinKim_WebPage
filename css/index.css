@@ -239,6 +239,14 @@ footer{
     font-size: 13px;
     line-height: 1.66667;
 }
+
+.detail{
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+    gap: 145px;
+}
+
 .default-info{
     text-align: right;
 }
