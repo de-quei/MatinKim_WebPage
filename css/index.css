@@ -72,6 +72,7 @@ p{
 
 .section1 {
     width: 100%;
+    position: relative;
 }
 
 .section1 ul {
@@ -85,6 +86,14 @@ p{
     margin-right: 10px; /* 이미지 사이에 간격을 주기 위해 조절 */
 }
 
+.section1 ul li .desc{
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
 .section1 a {
     text-decoration: none;
     color: inherit;
@@ -93,6 +102,17 @@ p{
 .section1 img {
     max-width: 100%;
     height: auto;
+}
+
+.section1 li .img img:hover {
+    opacity: 0.8; /* 이미지 투명도를 줄여 어두워지게 함 */
+    transform: scale(1.1); /* 이미지 크기를 확대 */
+    transition: transform 0.3s ease; /* 부드러운 변화를 위한 트랜지션 설정 */
+}
+
+/* 마우스가 이미지에서 벗어났을 때 원래 상태로 복원 */
+.section1 li .img img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .section2 {
@@ -118,4 +138,15 @@ p{
 .section2 img {
     max-width: 100%;
     height: auto;
+}
+
+.section2 li .img img:hover {
+    opacity: 0.8; /* 이미지 투명도를 줄여 어두워지게 함 */
+    transform: scale(1.1); /* 이미지 크기를 확대 */
+    transition: transform 0.3s ease; /* 부드러운 변화를 위한 트랜지션 설정 */
+}
+
+/* 마우스가 이미지에서 벗어났을 때 원래 상태로 복원 */
+.section2 li .img img {
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
