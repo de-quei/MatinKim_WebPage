@@ -9,6 +9,7 @@ html,body{
     height: 100%;
 }
 
+/*header*/
 .top_header{
     width: 100%;
     height: 40px;
@@ -70,6 +71,7 @@ p{
     font-size: 1.3rem; /* 아이콘 크기를 조절할 값 (예: 2rem) */
 }
 
+
 /* 슬라이드 컨테이너 스타일 */
 .slide-container {
     position: relative;
@@ -116,6 +118,7 @@ p{
     display: block;
 }
 
+/*img section1*/
 .section1 {
     width: 100%;
     padding: 80px;
@@ -160,6 +163,7 @@ p{
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
+/*img section2*/
 .section2 {
     width: 100%;
     padding: 60px 30px;
