@@ -201,6 +201,9 @@ p{
 }
 
 /*footer*/
+footer{
+    padding: 0 0 80px;
+}
 .top-footer{
     border: 1px solid #e5e5e5;
     padding: 40px 30px;
@@ -211,6 +214,7 @@ p{
 .footer-menu{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .footer-menu ul{
@@ -229,6 +233,7 @@ p{
     justify-content: space-between;
     align-items: flex-start;
     padding: 40px 30px 0;
+    padding-top: 40px;
     font-family: 'Helvetica Neue','NotoSansKR',sans-serif;
     color: #1E1E1E;
     font-size: 13px;
@@ -249,3 +254,4 @@ p{
     font-size: 13px;
     line-height: 1.66667;
 }
+
