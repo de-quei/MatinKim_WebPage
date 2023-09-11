@@ -70,16 +70,27 @@ p{
     font-size: 1.3rem; /* 아이콘 크기를 조절할 값 (예: 2rem) */
 }
 
-.section1{
+.section1 {
     width: 100%;
-    padding: 80px;
 }
 
 .section1 ul {
-    list-style: none;
-    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
 }
 
-.section ul li{
-    text-align: center;
+.section1 li {
+    margin-right: 10px; /* 이미지 사이에 간격을 주기 위해 조절 */
+}
+
+.section1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section1 img {
+    max-width: 100%;
+    height: auto;
 }
