@@ -60,7 +60,6 @@ p{
 
 .center_header{
     width: 300px;
-    font-size: 45px;
 }
 
 .right_header .menu{
@@ -162,6 +161,9 @@ p{
 .section1 li .section1-img img {
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
+/*video section*/
+
 
 /*img section2*/
 .section2 {
