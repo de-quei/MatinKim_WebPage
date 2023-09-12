@@ -14,3 +14,15 @@ function handleScroll() {
   
   // 스크롤 이벤트 리스너를 등록합니다.
   window.addEventListener('scroll', handleScroll);
+
+// 햄버거 버튼
+const menuIcon = document.getElementById("menuIcon");
+const sidebar = document.getElementById("hamburger-sidebar");
+
+menuIcon.addEventListener("click", () => {
+    if (sidebar.style.left === "-250px" || sidebar.style.left === "") {
+        sidebar.style.left = "0";
+    } else {
+        sidebar.style.left = "-250px";
+    }
+});
