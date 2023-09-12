@@ -103,6 +103,9 @@ p{
 
   .hamburger-menu-tab ul li {
     padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #9a9a9a;
   }
   
   .hamburger-menu {
@@ -111,16 +114,18 @@ p{
     padding: 0;
     margin: 0;
   }
-  
+
   .hamburger-list {
     text-align: center;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.2s;
+    color: #9a9a9a;
   }
   
   .hamburger-list:hover {
-    background-color: #444;
+    text-decoration: underline #1e1e1e;
+    color: #1e1e1e;
   }
   
   .space {
