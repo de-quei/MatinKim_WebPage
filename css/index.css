@@ -80,7 +80,7 @@ p{
     z-index: 1;
     background-color: #ffffff;
     border-right: 1px solid #e5e5e5;
-    align-items: flex-start;
+    flex-direction: column; /* 세로로 정렬하기 위해 flex 방향을 column으로 설정 */
   }
   
   .hamburger-menu-tab {
@@ -91,11 +91,13 @@ p{
   }
   
   .hamburger-menu-tab span {
+    display: flex;
     margin-bottom: 10px;
     font-size: 18px;
   }
   
   .hamburger-menu {
+    flex-direction: column;
     list-style: none;
     padding: 0;
     margin: 0;
