@@ -72,15 +72,15 @@ p{
 .hamburger-sidebar {
     position: fixed;
     top: 0;
-    left: -250px; 
-    width: 250px;
-    height: 100%;
-    background-color: #333;
+    left: -280px; 
+    min-width: 280px;
+    height: 100vh;
     overflow-y: auto;
     transition: left 0.3s; 
     z-index: 1;
-    padding-top: 60px; 
-    color: white;
+    background-color: #ffffff;
+    border-right: 1px solid #e5e5e5;
+    align-items: flex-start;
   }
   
   .hamburger-menu-tab {
@@ -91,7 +91,6 @@ p{
   }
   
   .hamburger-menu-tab span {
-    color: white;
     margin-bottom: 10px;
     font-size: 18px;
   }
@@ -103,7 +102,6 @@ p{
   }
   
   .hamburger-list {
-    color: white;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.2s;
@@ -333,4 +331,3 @@ footer{
     font-size: 13px;
     line-height: 1.66667;
 }
-

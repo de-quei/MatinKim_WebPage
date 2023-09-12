@@ -18,11 +18,22 @@ function handleScroll() {
 // 햄버거 버튼
 const menuIcon = document.getElementById("menuIcon");
 const sidebar = document.getElementById("hamburger-sidebar");
+const closeBtn = document.querySelector(".close-btn"); // 클로즈 버튼 선택
 
 menuIcon.addEventListener("click", () => {
-    if (sidebar.style.left === "-250px" || sidebar.style.left === "") {
-        sidebar.style.left = "0";
-    } else {
-        sidebar.style.left = "-250px";
-    }
+  toggleSidebar();
 });
+
+closeBtn.addEventListener("click", () => {
+  closeSidebar();
+});
+
+function toggleSidebar() {
+  if (sidebar.style.left === "-280px" || sidebar.style.left === "") {
+    sidebar.style.left = "0";
+  }
+}
+
+function closeSidebar() {
+  sidebar.style.left = "-280px";
+}
